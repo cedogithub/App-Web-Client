@@ -1,0 +1,24 @@
+.heart{
+width: 45px;
+height: 35px;
+transition: all 1s;
+position: relative;
+left: 5px;
+
+}
+
+.heart:hover{
+    transform: scale(3);
+}   
+.biereimg{
+    transition:  all 1.5s;
+
+}
+.biereimg:hover{
+    transition-delay: 0.5s;
+    transform: rotateY(150deg);
+
+}
+.note{
+    color: rgb(65, 65, 65);
+}

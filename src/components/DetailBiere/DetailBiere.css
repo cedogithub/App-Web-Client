@@ -1,0 +1,90 @@
+.biere-card.fiche{
+    height: 550px;
+    width: 600px;
+    transition: all 1s;
+
+}
+
+.fiche-container {
+    margin: 6em 5em;
+    display: grid;
+    grid-template-columns: repeat(2, 650px);
+  }
+  .fiche-texte>p{
+   line-height: 40px;
+
+  }
+  .desc{
+    font-size: 27px;
+    margin: 1em 0;
+    line-height: 1.3em;
+  }
+
+
+  .biere-card.fiche img {
+    margin-top: 10px;
+    object-fit: contain;
+    width: 100%;
+    max-height: 90%;
+  }
+
+  .fiche-texte h1{
+    font-size: 60px;
+  }
+  .fiche-texte p{
+    font-size: 28px;
+  }
+  .card-ajout{
+    border-radius: 7px;
+    padding: 1.5em;
+    border: 2px solid lightgrey;
+    margin: 1em 0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+  }
+  .card-ajout textarea{
+    margin: 1em 0;
+    font-size: 20px;
+  }
+
+  .comment-container{
+    margin: 1em 0;
+    display: grid;
+    grid-template-columns: repeat(2,600px);
+    gap: 2em;
+  }
+  .comment-card{
+    border: 2px solid lightgrey;
+    padding: 1.5em 1.5em;
+    margin: 1em 0;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+  }
+  .card-ajout button{
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--button);;
+      color: #fff;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 700;
+    height: 28px;
+    justify-content: center;
+    letter-spacing: .5px;
+    line-height: normal;
+    max-width: 100%;
+    padding: 15px 14px;
+    position: relative;
+    text-align: center;
+    border: none  ;
+  }
+  .card-ajout button:hover{
+    background-color:#e9c489 ;
+  }
+  input[type="number"]{
+    margin: 1em 0;
+  }

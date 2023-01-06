@@ -1,0 +1,118 @@
+.hero-container{
+    margin-top: 3px;
+    padding: 200px 0;
+    color: #fff;
+    background-image: linear-gradient(
+				rgba(0, 0, 0, 0.5),
+				rgba(0, 0, 0, 0.5)
+			  ),url('../../img/the-1669256803132-9426.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+.texte-hero{
+    margin: 0 3em;
+    text-shadow:
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
+
+}
+
+.texte-hero>h1{
+    font-size:60px ;
+    margin:0;
+}
+.texte-hero>h3{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.texte-hero>a{
+    text-shadow: none;
+    margin-top: 10px;
+      align-items: center;
+      text-decoration: none;
+      background-color: var(--button);
+        color: #fff;
+        
+      border-radius: 24px;
+      box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+      cursor: pointer;
+      display: inline-flex;
+      font-size: 16px;
+      font-weight: 700;
+      height: 48px;
+      justify-content: center;
+      letter-spacing: .5px;
+      line-height: normal;
+      max-width: 100%;
+      padding: 2px 24px;
+      position: relative;
+      text-align: center;
+    }
+    .texte-hero>a:hover{
+        background-color: #e9c489
+        ;
+    }
+    
+   
+.newsletter{
+    padding: 8em 0;
+    text-shadow:
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
+    color: #fff;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),url(../../img/homerduff.png);
+    background-position: center center  ;
+    
+    background-size: contain;    text-align: center;
+}
+
+.newsletter input{
+    padding: 0.5em 2.5em;
+    margin: 1em;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.newsletter>a{
+    margin-top: 10px;
+    text-shadow: none;
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--button);;
+      color: #fff;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 700;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .5px;
+    line-height: normal;
+    max-width: 100%;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+}
+.newsletter>a:hover{
+    background-color: #e9c489
+    ;
+}
