@@ -13,9 +13,10 @@ validé celui-ci en cliquant sur le bouton "Connecter". Seul un courriel valide 
 est requis. 
 
 # Technologies
--REACT
--REACT-Router
--API
--Framer-Motion
+- React
+- React-Router 
+- Api
+- Framer-Motion
+
 ![image](https://user-images.githubusercontent.com/39746523/213233010-5b4814ae-152b-4883-a051-c6d7b36e1cdc.png)
 ![image](https://user-images.githubusercontent.com/39746523/213233773-bde86e05-c963-417e-a455-f75279c4da0e.png)
